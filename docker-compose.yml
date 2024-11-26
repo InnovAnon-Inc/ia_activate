@@ -8,6 +8,7 @@ services:
         -           ia_activate:latest
         - innovanon/ia_activate
         -           ia_activate
+    image:            innovanon/ia_activate
     restart:          no
     logging:
       driver:         syslog   
