@@ -4,7 +4,10 @@ services:
     build:
       context:        .
       tags:
-        - ia_activate:latest
+        - innovanon/ia_activate:latest
+        -           ia_activate:latest
+        - innovanon/ia_activate
+        -           ia_activate
     restart:          no
     logging:
       driver:         syslog   
