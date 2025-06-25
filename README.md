@@ -39,6 +39,7 @@ if name == 'main':
     import asyncio
     asyncio.run(main())
 ```
+*EDITORS NOTE: 'a' is for async -- aactivate*
 
 #### Using the Decorator
 
